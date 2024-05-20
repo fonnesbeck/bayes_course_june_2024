@@ -15,6 +15,7 @@ dependencies:
   - pandas
   - patsy
   - pip
+  - polars
   - pymc
   - pydot
   - python-graphviz

@@ -90,7 +90,7 @@ The course comprises ten modules of videoconference lectures, along with short a
 ### Thursday, June 13
 
 **Hierarchical Models**
-- Parital pooling
+- Partial pooling
 - Random effects
 - Prediction
 
