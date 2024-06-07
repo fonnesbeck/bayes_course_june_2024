@@ -7,12 +7,9 @@ dependencies:
   - hvplot
   - ipython
   - ipywidgets
-  - jax
-  - jaxlib
   - jupyter_client
   - jupyter_core
   - jupyterlab
-  - numpyro
   - pandas
   - patsy
   - pip
@@ -24,3 +21,6 @@ dependencies:
   - scipy
   - seaborn
   - setuptools
+  - pip:
+    - jax[cpu]
+    - numpyro[cpu]
