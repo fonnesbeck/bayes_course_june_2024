@@ -19,6 +19,7 @@ dependencies:
   - scipy
   - seaborn
   - setuptools
+  - watermark
   - pip:
     - jax[cpu]
     - numpyro[cpu]
