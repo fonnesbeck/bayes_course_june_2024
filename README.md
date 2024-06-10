@@ -68,6 +68,11 @@ The course comprises ten modules of videoconference lectures, along with short a
 - Probability density functions, inverse CDF sampling
 - Bayesian comuptation and approximations
 
+**Choosing Priors**
+- Prior selection
+- Conjugate priors
+- Likelihood selection
+
 **Introduction to Bayesian Models and PyMC** 
 - The PyMC API
 - My first PyMC model
@@ -97,6 +102,7 @@ The course comprises ten modules of videoconference lectures, along with short a
 - Partial pooling
 - Random effects
 - Prediction
+- Hierarchical modeling exercise
 
 **Model Checking**
 - Convergence diagnostics
