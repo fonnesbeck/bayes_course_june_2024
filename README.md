@@ -24,7 +24,11 @@ The repository for this tutorial contains a file called `environment.yml` that i
 
     mamba env create
 
-from the main tutorial directory (if you installed Anaconda instead of Miniforge, use `conda` instead of `mamba`), it will create the environment for you and install all of the packages listed. This environment can be enabled using:
+from the main tutorial directory (if you installed Anaconda instead of Miniforge, use `conda` instead of `mamba`), it will create the environment for you and install all of the packages listed. Some Windows users may have difficulty installing two of the packages (`jax` and `numpyro`). If you have trouble with this, you can use the following environment instead:
+
+    mamba env create -f environment_nojax.yml
+
+This environment can be enabled using:
 
     mamba activate bayes_course  
 
@@ -64,6 +68,11 @@ The course comprises ten modules of videoconference lectures, along with short a
 - Probability density functions, inverse CDF sampling
 - Bayesian comuptation and approximations
 
+**Choosing Priors**
+- Prior selection
+- Conjugate priors
+- Likelihood selection
+
 **Introduction to Bayesian Models and PyMC** 
 - The PyMC API
 - My first PyMC model
@@ -93,6 +102,7 @@ The course comprises ten modules of videoconference lectures, along with short a
 - Partial pooling
 - Random effects
 - Prediction
+- Hierarchical modeling exercise
 
 **Model Checking**
 - Convergence diagnostics

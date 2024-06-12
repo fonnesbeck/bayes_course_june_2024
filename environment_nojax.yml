@@ -4,7 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - hvplot
   - ipython
   - ipywidgets
   - jupyter_client
@@ -14,14 +13,9 @@ dependencies:
   - patsy
   - pip
   - polars
-  - pyarrow
   - pymc
   - pydot
   - python-graphviz
   - scipy
   - seaborn
   - setuptools
-  - watermark
-  - pip:
-    - jax[cpu]
-    - numpyro[cpu]
